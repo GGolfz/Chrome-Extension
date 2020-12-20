@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Youtube PiP",
+    "description": "Youtube Picture in Picture Extension by GGolfz",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_icon": "logo.png"
+    },
+    "background": {
+        "scripts": ["script.js"],
+        "persistent": false
+    },
+    "permissions": ["activeTab"],
+    "icons": {"128":"logo.png"}
+}
